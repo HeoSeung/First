@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command First</Text>
+    <Description>Some description for First</Description>
+    <Assembly>First.dll</Assembly>
+    <FullClassName>First.Command</FullClassName>
+    <ClientId>e4425735-0448-438c-b4a7-652213f6d3d5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application First</Name>
+    <Assembly>First.dll</Assembly>
+    <FullClassName>First.App</FullClassName>
+    <ClientId>00658b42-0d6d-445d-96bf-9f44165cbd2a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
